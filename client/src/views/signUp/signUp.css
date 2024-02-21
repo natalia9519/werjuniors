@@ -1,0 +1,21 @@
+.section-register{
+    background-color: #3D2D9E;
+    width: 40vw;
+    height: auto;
+    justify-content: center;
+    display: flex;
+}
+.section-register label{
+color:white;
+margin: 1rem 0;
+}
+
+.section-register input{
+border: 5px solid #6EFF97;
+border-radius: 0;
+}
+.section-register .btn-form{
+    background-color: #6EFF97;
+    color:#210066;
+    margin:1rem;
+}
