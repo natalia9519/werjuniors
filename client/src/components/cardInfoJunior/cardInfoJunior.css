@@ -1,6 +1,10 @@
-.card-body{
-    background-color: #3D2D9E;
-}
+.card{
+    --bs-card-border-color: none;
+
+ }
+ .custom-text-color{
+    color: #210066;
+ }
 /* .card {
     border: none;
     border-radius: none;
