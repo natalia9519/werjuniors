@@ -1,4 +1,18 @@
-#root {
+
+*{
+  font-family: "Fredoka", sans-serif;
+}
+
+main{
+  background-color: #210066 ;
+  min-height: 80vh;
+  min-width: 100vw;
+}
+.h1-title-page{
+  font-size: 5rem;
+  color: white;
+}
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +53,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
