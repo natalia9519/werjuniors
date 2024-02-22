@@ -6,3 +6,18 @@
 
     color: #210066;
 }
+
+.btn-custom {
+    background-color: #210066;
+    color: white;
+    border-radius:2px; 
+}
+
+
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    justify-content: center;
+    display: flex;
+    margin-bottom:1rem;
+}

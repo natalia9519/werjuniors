@@ -1,0 +1,8 @@
+.photo-home{
+    height: 20rem;
+    
+}
+.photo-home-carrousel{
+    justify-content: center;
+    display: flex;
+}

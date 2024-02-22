@@ -7,11 +7,11 @@ import { Link } from 'react-router-dom';
 function NavbarCustom() {
 return (
 <>
-<Container fluid className="d-flex justify-content-between">
+<Container fluid className="d-flex justify-content-between navbar-custom-background">
             <Link to="./ "> <img
-                src="../../../public/image/logoWerJr1-2.svg"
-                width="100"
-                height="50"
+                src="../../../public/image/logoWerJr1.svg"
+                width="120"
+                height="100"
                 className="d-inline-block align-top mb-2 "
                 alt="company logo"
             /></Link>
@@ -19,7 +19,7 @@ return (
                 <Nav.Link href="/junior">Junior</Nav.Link>
                 <Nav.Link href="/favorite">Tus Junior</Nav.Link>
                 <Nav.Link href="/contact">Contáctame</Nav.Link>
-                <Nav.Link href="/workWithUs">Trabaja con nosotros</Nav.Link>
+
             </Nav>
             <Link to="./login "><img
                 src="../../../public/image/userlogo.png"
