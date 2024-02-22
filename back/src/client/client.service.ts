@@ -23,6 +23,10 @@ export class ClientService {
       async findOneById(id: string) {
         return await this.clientModel.findById(id);
       }
+      async   findOneByEmail(email: string) {
+        return await this.clientModel.find({email});
+      }
+    
 
   update(id: number, updateClientDto: UpdateClientDto) {
     return `This action updates a #${id} client`;
