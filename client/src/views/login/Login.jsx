@@ -100,7 +100,7 @@ const URI = 'http://localhost:3000/client/';
 
 function Login() {
   const [LoginOk, setLogin] = useState(false);
-  const [name, setName] = useState('');
+  // const [name, setName] = useState('');
   const [password, setPassword] = useState('');
   const [email, setEmail] = useState('');
   const [userData, setUserData] = useState(null);
@@ -123,11 +123,11 @@ function Login() {
   const store = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post(URI);
-       const user = response.data.find(user => user.name === name && user.password === password);
+      const response = await axios.get(URI);
+       const user = response.data.find(user => user.email === email && user.password === password);
       if (user) {
         setLogin(true);
-        alert('Bienvenido ' + name);
+        alert('Bienvenido ' + email);
       } else {
         alert('Las credenciales no son válidas');
       }
@@ -153,10 +153,10 @@ function Login() {
               <section className="section-login">
                 {!LoginOk ? (
                   <form onSubmit={store}>
-                    <div className="form-group">
+                    {/* <div className="form-group">
                       <label htmlFor="formGroupExampleInput" className="tittles">Nombre de usuario</label>
                       <input type="text" value={name} onChange={(e) => setName(e.target.value)} className="form-control" id="formGroupExampleInput" placeholder="Introduce tu nombre de usuario" />
-                    </div>
+                    </div> */}
                     <div className="form-group">
                       <label htmlFor="formGroupExampleInput2" className="tittles">Contraseña</label>
                       <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} className="form-control" id="formGroupExampleInput2" placeholder="Introduce tu contraseña" />
