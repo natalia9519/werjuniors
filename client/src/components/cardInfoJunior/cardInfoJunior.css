@@ -1,0 +1,13 @@
+.card{
+    --bs-card-border-color: none;
+
+ }
+.card .card-body {
+
+    color: #210066;
+}
+/* .card {
+    border: none;
+    border-radius: none;
+  }
+   */
