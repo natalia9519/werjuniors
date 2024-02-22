@@ -17,6 +17,11 @@ export class ClientController {
     return await this.clientService.findAll();
   }
 
+  @Get('/login/:email')
+  async findOneByEmail(@Param('email') email: string) {
+    return await this.clientService.findOneByEmail(email);
+  }
+
   @Get(':id')
   async findOneById(@Param('id') id: string) {
     return await this.clientService.findOneById(id);
