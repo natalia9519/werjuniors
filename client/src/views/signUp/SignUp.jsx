@@ -29,14 +29,6 @@ function SignUp() {
   }
 
 
-  const handleRegistrarse = (e) => {
-      e.preventDefault();
-      if (terminosAceptados) {
-          setRegistrado(true);
-      } else {
-          alert("Debes aceptar los términos y condiciones de privacidad");
-      }
-  }
 
 
   const handleTerminosAceptados = () => {
@@ -58,7 +50,8 @@ function SignUp() {
         <Container className="d-flex justify-content-center">
           <Row>
             <Col>
-        <section className="section-register">
+            <section>
+        <aside className="section-register">
         {!RegisterOk ? (
                 <form onSubmit={store}>
                     <div className="form-group">
@@ -82,7 +75,7 @@ function SignUp() {
                             Acepto los términos y condiciones de privacidad.
                         </label>
                     </div>
-                    <button onClick={handleRegistrarse} className="btn-form">¿Ya tienes una cuenta?</button>
+                    
                     <button type='submit' className="btn-form">Registrarse</button>
                 </form>
             ) : (
@@ -91,7 +84,9 @@ function SignUp() {
                     <Link to="/" className="btn-form">Volver a inicio</Link>
                 </div>
             )}
-            </section>
+                          </aside>
+               <Link to="/login" className="btn-signup">¿Ya tienes una cuenta?</Link>
+               </section>
             </Col>
           </Row>
 

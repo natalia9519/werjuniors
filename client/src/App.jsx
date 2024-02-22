@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import  Navbar  from './components/navbar/Navbar.jsx';
+import  NavbarCustom  from './components/navbar/NavbarCustom.jsx';
 import  Footer  from './components/footer/Footer.jsx';
 import  HomeView  from './views/homeView/HomeView.jsx';
 import  Contact  from './views/contact/Contact.jsx';
@@ -18,7 +18,7 @@ function App() {
     <>
      <div className="App">
       <BrowserRouter>
-        <Navbar />
+        <NavbarCustom />
         <Routes>
           <Route index element={<HomeView />} />
          

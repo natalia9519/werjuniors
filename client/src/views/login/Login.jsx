@@ -48,7 +48,10 @@ function Login() {
         <Container className="d-flex justify-content-center">
           <Row>
             <Col>
-              <section className="section-login">
+            <section>
+
+
+              <aside className="section-login">
                 {!LoginOk ? (
                   <form onSubmit={store}>
 
@@ -74,7 +77,10 @@ function Login() {
                     <Link to="/" className="btn-form">Volver a inicio</Link>
                   </div>
                 )}
-              </section>
+               
+              </aside>
+               <Link to="/signup" className="btn-form">¿No tienes cuenta?</Link>
+               </section>
             </Col>
           </Row>
         </Container>

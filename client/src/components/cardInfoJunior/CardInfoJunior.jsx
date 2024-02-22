@@ -11,7 +11,6 @@ function CardInfoJunior() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    // Realizar la solicitud al backend para obtener los datos de los usuarios utilizando Axios
     axios.get('http://localhost:3000/users')
       .then(response => {
         setUsers(response.data);
@@ -29,7 +28,7 @@ function CardInfoJunior() {
           {users.map((user, index) => ( // Asegúrate de pasar 'index' como segundo argumento en map
             <Col key={index} xs={12} sm={8} md={6} lg={4}>
               <Card className="border-0 mb-3" style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="https://i.postimg.cc/m2cC8B67/Junior4.png" />
+                <Card.Img variant="top" src={user.photo} />
                 <Card.Body>
                   <Card.Title className="fw-bold custom-text-color d-flex justify-content-between align-items-center">
                     {user.name}
