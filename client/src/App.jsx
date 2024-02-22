@@ -1,6 +1,6 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import  Navbar  from './components/navbar/Navbar.jsx';
+import  NavbarCustom  from './components/navbar/NavbarCustom.jsx';
 import  Footer  from './components/footer/Footer.jsx';
 import  HomeView  from './views/homeView/HomeView.jsx';
 import  Contact  from './views/contact/Contact.jsx';
@@ -12,13 +12,13 @@ import  WorkWithUs  from './views/workWithUs/WorkWithUs.jsx';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+// const [count, setCount] = useState(0)
 
   return (
     <>
      <div className="App">
       <BrowserRouter>
-        <Navbar />
+        <NavbarCustom />
         <Routes>
           <Route index element={<HomeView />} />
          

@@ -1,10 +1,26 @@
 import "./homeView.css";
+import CarrouselHome from "../../components/carrouselHome/CarrouselHome";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function HomeView() {
   return (
     <>
       <main>
-        <p>home</p>
+
+      <img src="https://i.postimg.cc/wHBRhggW/Chicohome4.png" className="imgchicohome" alt="Imagen Portada Home" />
+      <Container className="d-flex justify-content-center">
+          <Row>
+            <Col>
+              <h1 className="h1-title-page">Nuestros coders</h1>
+            </Col>
+          </Row>
+        </Container>
+        <CarrouselHome />
+
+        <img src="https://i.postimg.cc/7DTV4H7C/gruposobre-Nosotros1.png" className="imgchomenosotros" alt="Sobre nosotros" />
+
       </main>
     </>
   );
