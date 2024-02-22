@@ -1,0 +1,11 @@
+.navbar-custom-background {
+    background-color: #6FFF97; 
+     color: #210066;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 0 30px;
+}

@@ -46,7 +46,7 @@ function WorkWithUs() {
                     <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Introduce tu nombre de usuario" />
                   </div>
                   <Form.Group controlId="formFile" className="mb-3">
-                    <Form.Label>Default file input example</Form.Label>
+                    <Form.Label>Curriculum Vitae</Form.Label>
                     <Form.Control type="file" />
                   </Form.Group>
                   <div className="form-group">

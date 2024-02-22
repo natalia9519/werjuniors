@@ -2,17 +2,24 @@ import "./junior.css";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import React from 'react';
+import React, { useState } from 'react';
+import SearchBar from '../../components/SearchBar/SearchBar.jsx';
 
 
 import CardInfoJunior from "../../components/cardInfoJunior/CardInfoJunior";
 
 function Junior() {
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleSearch = (term) => {
+    setSearchTerm(term);
+  };
 
 
   return (
     <>
       <main>
+
       <Container className="d-flex justify-content-center">
           <Row>
             <Col>
@@ -20,7 +27,12 @@ function Junior() {
             </Col>
           </Row>
         </Container>
-        <CardInfoJunior />
+        <SearchBar onSearch={handleSearch} />
+        <CardInfoJunior searchTerm={searchTerm} />
+
+
+
+
       </main>
     </>
   );

@@ -8,6 +8,8 @@ function HomeView() {
   return (
     <>
       <main>
+
+      <img src="https://i.postimg.cc/wHBRhggW/Chicohome4.png" className="imgchicohome" alt="Imagen Portada Home" />
       <Container className="d-flex justify-content-center">
           <Row>
             <Col>
@@ -16,6 +18,9 @@ function HomeView() {
           </Row>
         </Container>
         <CarrouselHome />
+
+        <img src="https://i.postimg.cc/7DTV4H7C/gruposobre-Nosotros1.png" className="imgchomenosotros" alt="Sobre nosotros" />
+
       </main>
     </>
   );
