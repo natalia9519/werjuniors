@@ -6,9 +6,11 @@ import Col from "react-bootstrap/Col";
 import axios from "axios";
 import { FaHeart } from "react-icons/fa";
 import { useState, useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
 
 function CardInfoJunior() {
   const [users, setUsers] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     axios.get('http://localhost:3000/users')
@@ -20,7 +22,9 @@ function CardInfoJunior() {
       });
   }, []);
 
-
+  const handleContactClick = (user) => {
+    navigate(`/contact/${user.id}`);
+  }
   return (
     <>
      <Container className="d-flex justify-content-center mt-5">
@@ -43,6 +47,14 @@ function CardInfoJunior() {
                     Ciudad: {user.city} 
                   </Card.Title>
                 </Card.Body>
+                <Container className="d-flex justify-content-center my-2">
+                  <Row>
+                    <Col>
+
+                      <button className="btn-custom" onClick={() => handleContactClick(user)} >¡Contáctame!</button>
+                    </Col>
+                  </Row>
+                </Container>
               </Card>
             </Col>
           ))}

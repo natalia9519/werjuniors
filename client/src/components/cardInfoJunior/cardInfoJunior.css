@@ -3,6 +3,11 @@
 
  }
 .card .card-body {
-
     color: #210066;
+}
+
+.btn-custom {
+    background-color: #210066;
+    color: white;
+    border-radius:2px; 
 }

@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import React from 'react';
 
+
 import CardInfoJunior from "../../components/cardInfoJunior/CardInfoJunior";
 
 function Junior() {

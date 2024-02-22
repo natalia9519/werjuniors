@@ -22,8 +22,8 @@ function App() {
         <Routes>
           <Route index element={<HomeView />} />
          
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/favorite" element={<Favorite />} />
+          <Route path="/contact/:id" element={<Contact />} />
+          <Route path="/favorite/:id" element={<Favorite />} />
           <Route path="/junior" element={<Junior />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signUp" element={<SignUp />} />
