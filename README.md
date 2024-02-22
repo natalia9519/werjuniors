@@ -8,16 +8,17 @@ Proyecto innovador de **We are Juniors**, enfocado en presentar y dar a conocer 
 
 - [Instalación](#instalación)
 - [Uso](#uso)
-- [Contribución](#contribución)
+- [Desarrolladores](#desarrolladores)
 - [Licencia](#licencia)
 
 ## Estado del Proyecto
 🚧El proyecto se encuentra en estado de construcción 🚧.
 
-## Instalación 💻
+## Instalación
+💻
 
-Al instalarse el proyecto en la consola se deben tener en cuenta las siguientes indicaciones. <br>
-- Se debe instalar Node.js en el ordenador e instalar: npm install
+Al instalarse el proyecto en la consola se deben tener en cuenta las siguientes indicaciones: <br>
+- Se debe instalar Node.js en el ordenador: ```npm install```
 - Dentro de la carpeta **client** debemos escribir en la terminal:
 ```npm run dev```
 - Dentro de la carpeta **back** debemos escribir en la terminal: ```npm run start dev```
@@ -38,13 +39,13 @@ Teniendo en cuenta la anterior información se podría navegar por todas las pá
 ## Créditos
 
 ### Desarrolladores:
-- Natalia [Linkedin]("https://www.linkedin.com/in/natalia-de-bustos-garc%C3%ADa-5ba965298/")
-- Yamila [Linkedin]("https://www.linkedin.com/in/yamila-robles/")
-- Félix [Linkedin]("https://www.linkedin.com/in/f%C3%A9lix-rodr%C3%ADguez-dev/")
-- Pamela [Linkedin]("https://www.linkedin.com/in/pamela-baez-/")
-- Lidia [Linkedin]()
+- Natalia [Linkedin](https://www.linkedin.com/in/natalia-de-bustos-garc%C3%ADa-5ba965298/)
+- Yamila [Linkedin](https://www.linkedin.com/in/yamila-robles/)
+- Félix [Linkedin](https://www.linkedin.com/in/f%C3%A9lix-rodr%C3%ADguez-dev/)
+- Pamela [Linkedin](https://www.linkedin.com/in/pamela-baez-/)
+- Lidia [Linkedin](https://www.linkedin.com/in/lidia-p%C3%A9rez-5849462a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 - Brusmel [Linkedin]()
-- Jose [Linkedin]("https://www.linkedin.com/in/joyjos")
+- Jose [Linkedin](https://www.linkedin.com/in/joyjos)
 
 
 ## Tecnologías utilizadas
@@ -58,7 +59,7 @@ Teniendo en cuenta la anterior información se podría navegar por todas las pá
 ![Static Badge](https://img.shields.io/badge/MongoDB-v7-02E12E)
 
 
-## Metodologias Agiles
+## Metodologías Ágiles
 - <a href="https://trello.com/b/bNqMLFP8/equipo21hackathonf5"> Trello </a> </br> 
 - <a href="https://www.figma.com/file/yIHh6hdkr3cZoHLiMJuo3A/Untitled?type=design&node-id=1%3A2&mode=design&t=SCb4sUpluRAUCO1d-1"> Figma </a> </br>
 - <a href="https://github.com/natalia9519/werjuniors.git">GitHub</a> </br>
