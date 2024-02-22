@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function NavbarCustom() {
 return (
 <>
-<Container fluid className="d-flex justify-content-between">
+<Container fluid className="d-flex justify-content-between navbar-custom-background">
             <Link to="./ "> <img
                 src="../../../public/image/logoWerJr1-2.svg"
                 width="100"
