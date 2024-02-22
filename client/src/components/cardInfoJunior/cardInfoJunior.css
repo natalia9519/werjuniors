@@ -2,9 +2,10 @@
     --bs-card-border-color: none;
 
  }
- .custom-text-color{
+.card .card-body {
+
     color: #210066;
- }
+}
 /* .card {
     border: none;
     border-radius: none;
