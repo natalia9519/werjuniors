@@ -3,6 +3,11 @@ import CarrouselHome from "../../components/carrouselHome/CarrouselHome";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import CarrouselHome from "../../components/carrouselHome/CarrouselHome";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 
 function HomeView() {
   return (
@@ -19,7 +24,7 @@ function HomeView() {
         </Container>
         <CarrouselHome />
 
-        <img src="https://i.postimg.cc/7DTV4H7C/gruposobre-Nosotros1.png" className="imgchomenosotros" alt="Sobre nosotros" />
+        <img src="https://i.postimg.cc/qRn7sZW9/gruposobre-Nosotros1.png" className="imgchomenosotros" alt="Sobre nosotros" />
 
       </main>
     </>

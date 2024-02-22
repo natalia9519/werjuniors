@@ -55,7 +55,7 @@ function CardInfoJunior({ searchTerm }) {
                   <Row>
                     <Col>
                       <button className="btn-custom">
-                        <Link to="/contact">¡Contáctame!</Link>
+                        <Link to="/contact" className="link-card-info-junior">¡Contáctame!</Link>
                       </button>
                     </Col>
                   </Row>

@@ -1,12 +1,14 @@
 
 *{
   font-family: "Fredoka", sans-serif;
+  box-sizing: border-box;
+  
 }
 
 main{
   background-color: #210066 ;
   min-height: 80vh;
-  min-width: 100vw;
+  min-width: 80vw;
 }
 .h1-title-page{
   font-size: 5rem;
