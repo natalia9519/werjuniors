@@ -1,34 +1,34 @@
 import './carrouselHome.css'
 import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImage from 'react-bootstrap/Carousel';
-
+import CardInfoJunior from '../cardInfoJunior/CardInfoJunior.jsx';
+import axios from "axios";
+import { useState, useEffect } from "react";
 
 function CarrouselHome() {
+  const [users, setUsers] = useState([]);
+
+  useEffect(() => {
+    axios.get('http://localhost:3000/users')
+      .then(response => {
+        setUsers(response.data);
+        console.log(response.data); // Aquí se agregó el console.log
+      })
+      .catch(error => {
+        console.error('Error al obtener los datos de los usuarios', error);
+      });
+  }, []);
+
   return (
     <Carousel>
-      <Carousel.Item>
-        <ExampleCarouselImage text="First slide" />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <ExampleCarouselImage text="Second slide" />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <ExampleCarouselImage text="Third slide" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
+      {users.map((user, index) => (
+        <Carousel.Item key={index}>
+          <CardInfoJunior user={user} />
+          <Carousel.Caption>
+            <h3>{user.name}</h3>
+            <p>{user.city}</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      ))}
     </Carousel>
   );
 }
