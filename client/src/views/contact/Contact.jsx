@@ -14,6 +14,22 @@ function Contact () {
             </Col>
           </Row>
         </Container>
+        <Container className="d-flex justify-content-center">
+          <Row>
+            <Col>
+             
+             
+             
+              <h1 className="h1-title-page">Contactame</h1>
+
+              
+            </Col>
+          </Row>
+        </Container>
+
+
+
+
       </main>
       </>
     )

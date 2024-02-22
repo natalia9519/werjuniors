@@ -1,0 +1,32 @@
+.section-work-with-us{
+    background-color: #3D2D9E;
+    width: 40vw;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    margin: 2rem 0;
+}
+.section-work-with-us label{
+color:white;
+margin: 1rem 0;
+}
+
+.section-work-with-us input{
+border: 5px solid #6EFF97;
+border-radius: 0;
+}
+.section-work-with-us Form.Control{
+    border: 5px solid #6EFF97;
+    border-radius: 0;
+    }
+
+.section-work-with-us .btn-form{
+    background-color: #6EFF97;
+    color:#210066;
+    margin:1rem;
+}
+
+.text-send{
+    color:white;
+    
+}

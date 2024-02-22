@@ -4,6 +4,7 @@
     height: auto;
     justify-content: center;
     display: flex;
+    margin: 2rem 0;
 }
 .section-login label{
 color:white;
