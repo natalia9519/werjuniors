@@ -25,6 +25,7 @@ function CardInfoJunior() {
   const handleContactClick = (user) => {
     navigate(`/contact/${user.id}`);
   }
+  
   return (
     <>
      <Container className="d-flex justify-content-center mt-5">
@@ -50,7 +51,6 @@ function CardInfoJunior() {
                 <Container className="d-flex justify-content-center my-2">
                   <Row>
                     <Col>
-
                       <button className="btn-custom" onClick={() => handleContactClick(user)} >¡Contáctame!</button>
                     </Col>
                   </Row>
