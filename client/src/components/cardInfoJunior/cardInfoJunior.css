@@ -1,0 +1,8 @@
+.card{
+    --bs-card-border-color: none;
+
+ }
+.card .card-body {
+
+    color: #210066;
+}

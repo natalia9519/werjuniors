@@ -2,6 +2,7 @@ import "./favorite.css";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import CardInfoJunior from "../../components/cardInfoJunior/CardInfoJunior";
 
 function Favorite() {
   return (
@@ -14,9 +15,9 @@ function Favorite() {
             </Col>
           </Row>
         </Container>
+        <CardInfoJunior />
       </main>
     </>
   );
 }
-
 export default Favorite;
