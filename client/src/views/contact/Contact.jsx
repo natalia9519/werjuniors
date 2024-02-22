@@ -26,6 +26,7 @@ function Contact () {
     setTerminosAceptados(!terminosAceptados);
   }
 
+
     return (
         <>
         <main>
