@@ -2,7 +2,13 @@
 /dist
 node_modules
 /node_modules
-
+node_modules/
+node_modules
+/node_modules
+\node_modules
+/back/node_modules
+\back\node_modules
+back\node_modules
 # Logs
 logs
 *.log
