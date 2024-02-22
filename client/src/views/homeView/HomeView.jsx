@@ -19,7 +19,7 @@ function HomeView() {
         </Container>
         <CarrouselHome />
 
-        <img src="https://i.postimg.cc/7DTV4H7C/gruposobre-Nosotros1.png" className="imgchomenosotros" alt="Sobre nosotros" />
+        <img src="https://i.postimg.cc/qRn7sZW9/gruposobre-Nosotros1.png" className="imgchomenosotros" alt="Sobre nosotros" />
 
       </main>
     </>

@@ -32,7 +32,7 @@ function Contact () {
         <Container className="d-flex justify-content-center">
           <Row>
             <Col>
-              <h1 className="h1-title-page">Contactame</h1>
+              <h1 className="h1-title-page">Contáctame</h1>
             </Col>
           </Row>
         </Container>
@@ -45,6 +45,10 @@ function Contact () {
                   <div className="form-group">
                     <label htmlFor="formGroupExampleInput" className="tittles">Nombre</label>
                     <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Introduce tu nombre de usuario" />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="formGroupExampleInput" className="tittles">Nombre del junior</label>
+                    <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Introduce el nombre del junior" />
                   </div>
                   <div className="form-group">
                     <label htmlFor="formGroupExampleInput2" className="tittles">email</label>
